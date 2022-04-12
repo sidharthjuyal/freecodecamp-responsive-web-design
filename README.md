@@ -6,17 +6,17 @@ https://lnkd.in/eHYb2C4T
 I finally completed this awesome course, simply one of the best interactive, content-rich, progressive course ever and
 I'll tell you why.
 Projects Built in this course:
-1) Tribute Page
+1) Tribute Page: 
 https://lnkd.in/eJzG3PA5
-2) Survey form
+2) Survey form: 
 https://lnkd.in/e9je6APq
-3) Product Landing Page
+3) Product Landing Page: 
 https://lnkd.in/etAReyPj
-4) Documentation Page
+4) Documentation Page: 
 https://lnkd.in/eKbyJeQv
-5) Personal Portfolio Website
+5) Personal Portfolio Website: 
 https://lnkd.in/eP6gtZdS
-( These projects have automated test suites that you will need to pass )
+<br />( These projects have automated test suites that you will need to pass )
 
 The skills you will acquire after completing this course are as follows:
 1) Basic HTML and HTML5
