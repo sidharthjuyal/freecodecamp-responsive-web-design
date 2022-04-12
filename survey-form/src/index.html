@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>survey form</title>
+</head>
+
+<body>
+  <!--   header   -->
+  <header>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+  </header>
+
+  <!--   form   -->
+  <form id="survey-form">
+    <div class="form-group"> <label for="name" id="name-label">Name<label>
+          <input type="text" id="name" placeholder="Enter Your Name" required></div>
+
+    <div class="form-group">
+      <label for="email" id="email-label">Email<label>
+          <input type="email" id="email" required placeholder="Enter Your Email">
+    </div>
+
+    <div class="form-group"><label for="age" id="number-label">Age(<span>check all that apply</span>)<label>
+          <input type="number" id="number" placeholder="Age" min=10 max=100></div>
+    <div class="form-group">
+      <p>Which option best describes your current role?</p>
+      <select required id="dropdown">
+        <option disabled>Select current role</option>
+        <option>Student</option>
+        <option>Full Time job</option>
+        <option>Full Time learner</option>
+        <option>prefer not to say</option>
+        <option>other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <label for="r1"><input type="radio" id="r1" name="radio" value="definitely"> Definitely</label>
+      <label for="r2"><input type="radio" id="r2" name="radio" value="Maybe"> Maybe</label>
+      <label for="r3"><input type="radio" id="r3" name="radio" value="sure"> sure</label>
+    </div>
+    <div class="form-group">
+      <p>What is your favorite feature of freeCodeCamp?</p>
+      <select id="dropdown">
+        <option disabled>select an option</option>
+        <option>challenges</option>
+        <option>projects</option>
+        <option>community</option>
+        <option>opensource</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>What would you like to see improved? (<span>Check all that apply</span>)</p>
+      <label><input type="checkbox" value="some_value">Front-end Projects</label>
+      <label><input type="checkbox" value="some_value">Back-end Projects</label>
+      <label><input type="checkbox" value="some_value">Data visualization</label>
+      <label><input type="checkbox" value="some_value">Challenges</label>
+      <label><input type="checkbox" value="some_value">Open source community</label>
+      <label><input type="checkbox" value="some_value">Glitter help rooms</label>
+      <label><input type="checkbox" value="some_value">Front-end Projects</label>
+      <label><input type="checkbox" value="some_value">videos</label>
+      <label><input type="checkbox" value="some_value">city meetups</label>
+      <label><input type="checkbox" value="some_value">Wiki</label>
+      <label><input type="checkbox" value="some_value">Forum</label>
+      <label><input type="checkbox" value="some_value">Additional courses</label>
+    </div>
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea id="TA" col="30" row="30"></textarea>
+    </div>
+    <button type="submit" id="submit">Submit</button>
+
+  </form>
+
+</body>
+
+</html>
